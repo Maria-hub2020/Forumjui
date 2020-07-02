@@ -1,0 +1,25 @@
+
+{% embed "home/Theme.html.twig" %}
+
+    {% block body %}
+    <form style="display: flex; 
+    justify-content: center;
+    margin-top: 10px;">
+    <div class="form-group">
+    {#<label for="exampleFormControlFile1">Example file input</label>#}
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+    </form>
+    {% for post in posts %}
+                 
+        {{post.getContenu()}}<br>
+        <div class="m-3" style="background-color: #33333329"; "text-align: center"; "margin: 0rem!important"; >
+        <p>Date, {{post.getDate()|date("d/m/Y")}}<p>
+        </div>
+        <br>
+           {% endfor %}
+       
+        {{ form(form) }}
+    {% endblock %}
+{% endembed %}
+

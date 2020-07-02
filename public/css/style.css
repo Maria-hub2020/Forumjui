@@ -1,0 +1,189 @@
+.container-fluid {
+    min-height: 800px;
+}
+
+.col-md-10{
+    max-width: 40%;
+    background-color: #969090;
+}
+
+/*menu*/
+a.list-group-item.list-group-item-action:hover {
+    background-color: #6c757ddb;
+}
+
+.list-group-item.list-group-item-action {
+    color: #fff;
+    background-color: #333;
+    transition: all 0.1s ease-out;
+}
+/*register botton*/
+
+a {
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    cursor: pointer;
+    /*-webkit-transition: all 0.2s ease-in-out;*/
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #333333d4 !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 15;
+    background-color: #555555;   
+    color: white;
+}
+
+/* body centre*/
+.col-md-10 {
+    max-width: 80%;
+    background-color: #fff;
+    border-color: #96909099;
+    /* border-style: groove; */
+    border: 1px solid #969090;
+    height: 580px;
+    margin-top: 35px;    
+    margin-bottom: 0;
+    border-radius: .85rem;
+}
+
+.form-control {
+    width: 50%;
+}
+
+.list-group {
+    border: 1px solid
+}
+
+.user text-center p-5{
+    border-radius: .25rem;
+    border: 1px solid;
+}
+/* header padding class vide */
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: contents;
+}
+
+.col-md-2 {
+    max-width: 14.666667%;
+    
+}
+
+.col {
+margin: auto;
+flex-basis: 0;
+-ms-flex-positive: 1;
+/* flex-grow: 1; */
+min-width: 0;
+max-width: 100%;
+}
+
+
+.col1 {    
+    margin-right: 1380;
+}
+
+.h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    position: absolute;
+    right: 800;
+    display: flex;
+    align-content: end;
+    top: 50;
+}
+
+
+.vide{
+    padding-bottom: 10px;
+    background-color: #006972;
+}
+
+.list-group-item.list-group-item-action {
+    color: #fff;
+    background-color: #333;
+    transition: all 0s ease-out;
+}
+
+.form {
+    margin-top: 120;
+}
+.post {
+    width: 800px;
+  }
+
+.fi {
+    display: flex;
+  }
+
+.img {
+    max-width: 140px;
+}
+
+/*image bienvenue /bienv
+.bienv {
+    margin-top: 250;
+    width: 20px;
+    height: 20px;
+}*/
+  /*enregistre*/
+.registre {
+    display: flex;
+  }
+
+.form-control {
+    width: 30%;
+}
+
+/*download*/
+.input-group {
+    position: relative;
+   /* display: -ms-flexbox;*/
+    display: flex;
+   /* -ms-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+   /* -ms-flex-align: stretch;*/
+    align-items: stretch;
+    width: 30%;
+}
+/*Footer*/
+.page-footer {
+    line-height: 2;
+}
+
+body {
+    margin: 0;
+   /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;*/
+    line-height: 2;
+    /*color: #212529;*/
+    text-align: left;
+    background-color: #fff;
+}
+
+/*admin*/
+.bg-success {
+    background-color: #333333 !important;
+}
+
+.form-group {
+    /*direction: rtl;*/
+    margin-bottom: 0em;
+}
+.pb-5, .py-5 {
+    
+    padding-bottom: 2rem!important; 
+}
+
+.m-3 {
+    
+     margin: 0rem!important; 
+}
